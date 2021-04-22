@@ -15,7 +15,9 @@ body {
     background-image: url('https://media1.tenor.com/images/51b56ebf977aaa92057ff95513f30214/tenor.gif?itemid=13945789');
 }
 
-#mainBox {
+#wholeBox {
     align-content: center;
     background-color: whitesmoke;
+    opacity: 0.5;
+    width: 75%;
 }
