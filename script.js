@@ -1,15 +1,31 @@
 //Array Hub:
-const Phrases = [
-    "The bewildered tourist was lost",
-    "The lost puppy was a wet and stinky dog.",
-    "The flu clinic had seen many cases of infectious disease.",
-    "It was a story as old as time.",
-    "The sports car drove the long and winding road.",
-    "Saturday became a cool, wet afternoon.",
-    "He was waiting for the rain to stop.",
-];
-//variable Hub:
-let phrase = Phrases[Math.floor(Math.random() * Phrases.length)]
+let firtsPick = [
+    'The man', 'The Elf',
+    'The Woman', 'The Kid',
+    "The girl", 'The Crocodile',
+    'The ghost', 'The pirate',
+    'The dragon', 'The master',
+    'The child', 'The apprentice',
+    'The fighter', 'The warrior',
+    'The wizard', 'The witch',
+    'The facist', 'The communist',
+    'The democrat', 'The republican'
+]
+let secondPick = [
+        'eats', 'fights',
+        'punches', 'dances',
+        'attacks', 'runs',
+        'shoots', 'flies',
+        'dreams', 'sneaks',
+        'cuts', 'hugs',
+        'kisses', 'paints',
+        'fulminates', 'cries',
+        'drinks', 'honors',
+        'sees', 'watches'
+    ]
+    //variable Hub:
+let phrase = `${firtsPick[Math.floor(Math.random() * firtsPick.length)]} ${secondPick[Math.floor(Math.random() * firtsPick.length)]} ${firtsPick[Math.floor(Math.random() * firtsPick.length)]}`
 
-alert(phrase)
-    //Function bay
+//Function bay
+
+console.log(phrase)
